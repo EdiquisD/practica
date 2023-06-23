@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi cuririculum vitae</title>
+</head>
+<body background="imagenes\fondo1.jpg">
+ 
+	<style>
+		#principal{
+			border: solid 1px black;
+			width: 80%;  
+			margin: 0 auto;
+			padding: 5px;
+		}
+		fieldset{
+
+			margin-bottom: 10px;
+
+		}
+		legend{
+			 border: solid 1px violet;
+			 padding: 5px;
+			 color: white;
+			 font-weight: bold;
+			 border-radius: 20px; 
+			 background: blue;
+
+		}
+		#mifoto{
+          margin: 5px;
+          border: solid 4px black;
+
+		} 
+		body{ 
+          background: url(fondo1.jpg);
+          background-size: 100% ;
+         
+		 }
+	</style> 
+
+
+
+	<div id="principal">
+		<img src="imagenes\persona1.png" id="mifoto" height="150"  >
+		<h2>Edy, Quispe Diaz</h2>
+		<br><br><br><br><br>
+		<!-- fieldset es como un contenedor -->
+		<fieldset>
+			<!-- legend es como el titulo del comtenedor -->
+			<legend>Datos Generales</legend>
+			<ul>
+				<li>Cedula: 123-45828-9</li>
+				<li>Direccion: av. Jose Carlos Mariategui</li>
+				<li>Celular: 557754730 </li>
+				<li>Email: equis.123.reeve@gmail.com</li>
+
+			</ul>
+		</fieldset>
+		<fieldset>
+			<legend>Estudios realizados: </legend>
+			<ul>
+				<li>Estudios Primarios: San Francisco</li>
+				<li>Estudios Secundarios: Alta Gracia</li>
+				<li>Estudios Superiores: IESTP- Ayaviri</li>
+			</ul>
+		</fieldset>
+		<center>
+		<fieldset>
+			<legend>Peliculas Favoritas: </legend>
+			<h1>Terror: Exorcismo</h1><img src="imagenes\exorcismo.jpg" width="150">
+			<h1>Accion: Fast and Furios</h1><img src="imagenes\rapidos.jpg" width="150">
+			<h1>Comedia: Corazon de Leon</h1><img src="imagenes\leon.png" width="150">
+		</fieldset>
+		</center>
+	</div>
+	
+</body>
+</html>
